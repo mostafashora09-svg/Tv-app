@@ -1,4 +1,5 @@
 import'package:flutter/material.dart';
+import 'package:tv/screens/Categories.dart';
 import 'package:tv/screens/loginscreen.dart';
 
 void main(){
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home:Scaffold(
-        body: Loginscreen(),
+        body: Categories(),
       ),
     );
   }
